@@ -2,7 +2,7 @@
 monitor_telegram_advanced.py
 Author: Vishal Bhingarde
 Description:
-Advanced Server Monitor with Telegram Alerts, Live CSV Export (every 10 mins),
+Advanced Server Monitor with Telegram Alerts, Live CSV Export (every 1 mins),
 and Daily Summary for Streamlit Dashboard.
 """
 import sqlite3
@@ -19,8 +19,8 @@ MEMORY_THRESHOLD = 75     # percent
 DISK_THRESHOLD = 85       # percent
 CHECK_INTERVAL = 60      # seconds (1 minutes)
 
-BOT_TOKEN = "8360785161:AAHiepJ3Pdj2NCSQhDS9l_O5c8FwYz-WBCY"
-CHAT_ID = "7072105746"         # Replace with your chat id
+BOT_TOKEN = "" Replace with your Token
+CHAT_ID = "" Replace with your chat id
 
 LOG_FILE = "server_monitor.log"
 
