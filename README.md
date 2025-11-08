@@ -22,7 +22,7 @@ System → psutil → SQLite Database → Streamlit Dashboard
                       ↓
                 Telegram Alerts
 
-🚀 Key Features
+🚀 Key Features :
 
 ✅ Real-time tracking of CPU, Memory, Disk, and Network
 ✅ Alerts via Telegram Bot for high usage
@@ -54,15 +54,21 @@ System → psutil → SQLite Database → Streamlit Dashboard
 ⚙️ System Requirements
 
 Component	Version / Tool
+
 Python	3.11 or 3.12 ✅
+
 Streamlit	1.39.0
+
 SQLite	(Built-in with Python)
+
 OS	Windows / Linux / macOS
+
 Telegram App	Installed on your phone
 
 📦 Installation & Setup
 
 🪶 Step 1 — Clone the Repository
+
 git clone https://github.com/<your-username>/server_monitoring_project.git
 cd server_monitoring_project
 
@@ -89,13 +95,11 @@ Send the command:
 
 /newbot
 
-
 BotFather will ask for a name and username (e.g., ServerMonitorBot)
 
 You’ll receive a message containing your Bot Token, like:
 
 8360785161:AAHiepJ3Pdj2NCSQhDS9l_O5c8FwYz-WBCY
-
 
 Save this token — it’s your BOT_TOKEN.
 
